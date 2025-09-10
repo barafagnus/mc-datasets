@@ -1,0 +1,114 @@
+{
+  "villagers": {
+    "farmer": {
+      "name": "Фермер",
+      "trades": [
+        "wheat",
+        "bread",
+        "carrot",
+        "potato"
+      ]
+    },
+    "fisherman": {
+      "name": "Рыбак",
+      "trades": [
+        "cod",
+        "fishing_rod",
+        "boat"
+      ]
+    },
+    "shepherd": {
+      "name": "Пастух",
+      "trades": [
+        "wool",
+        "dye",
+        "bed"
+      ]
+    },
+    "fletcher": {
+      "name": "Лучник",
+      "trades": [
+        "arrow",
+        "bow",
+        "crossbow"
+      ]
+    },
+    "librarian": {
+      "name": "Библиотекарь",
+      "trades": [
+        "book",
+        "enchanted_book",
+        "paper",
+        "compass"
+      ]
+    },
+    "cartographer": {
+      "name": "Картограф",
+      "trades": [
+        "map",
+        "banner_pattern",
+        "compass"
+      ]
+    },
+    "armorer": {
+      "name": "Бронник",
+      "trades": [
+        "iron_chestplate",
+        "diamond_chestplate",
+        "shield"
+      ]
+    },
+    "weaponsmith": {
+      "name": "Оружейник",
+      "trades": [
+        "iron_sword",
+        "iron_axe",
+        "anvil"
+      ]
+    },
+    "toolsmith": {
+      "name": "Инструментальщик",
+      "trades": [
+        "iron_pickaxe",
+        "iron_shovel",
+        "iron_hoe"
+      ]
+    },
+    "mason": {
+      "name": "Каменщик",
+      "trades": [
+        "brick",
+        "stone",
+        "terracotta"
+      ]
+    },
+    "butcher": {
+      "name": "Мясник",
+      "trades": [
+        "porkchop",
+        "coal",
+        "cooked_porkchop"
+      ]
+    },
+    "leatherworker": {
+      "name": "Кожевник",
+      "trades": [
+        "leather_chestplate",
+        "saddle",
+        "iron_horse_armor"
+      ]
+    },
+    "cleric": {
+      "name": "Священник",
+      "trades": [
+        "potion",
+        "redstone",
+        "ender_pearl"
+      ]
+    },
+    "nitwit": {
+      "name": "Бездельник",
+      "trades": []
+    }
+  }
+}
