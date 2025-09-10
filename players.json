@@ -1,0 +1,122 @@
+[
+  {
+    "nickname": "Steve",
+    "level": 12,
+    "inventory": ["iron_sword", "bread", "torch"],
+    "location": "forest"
+  },
+  {
+    "nickname": "Alex",
+    "level": 20,
+    "inventory": ["diamond_pickaxe", "apple", "bucket"],
+    "location": "desert"
+  },
+  {
+    "nickname": "Max",
+    "level": 5,
+    "inventory": ["stone_shovel", "coal", "stick"],
+    "location": "plains"
+  },
+  {
+    "nickname": "Lena",
+    "level": 18,
+    "inventory": ["iron_axe", "shield", "bread"],
+    "location": "taiga"
+  },
+  {
+    "nickname": "Oleg",
+    "level": 25,
+    "inventory": ["bow", "arrow", "torch"],
+    "location": "mountains"
+  },
+  {
+    "nickname": "Nika",
+    "level": 9,
+    "inventory": ["stone_sword", "apple", "carrot"],
+    "location": "swamp"
+  },
+  {
+    "nickname": "Dima",
+    "level": 30,
+    "inventory": ["diamond_sword", "golden_apple", "ender_pearl"],
+    "location": "nether"
+  },
+  {
+    "nickname": "Ira",
+    "level": 7,
+    "inventory": ["wooden_sword", "bread", "stick"],
+    "location": "forest"
+  },
+  {
+    "nickname": "Sasha",
+    "level": 14,
+    "inventory": ["iron_pickaxe", "coal", "torch"],
+    "location": "cave"
+  },
+  {
+    "nickname": "Mila",
+    "level": 22,
+    "inventory": ["diamond_axe", "apple", "water_bucket"],
+    "location": "jungle"
+  },
+  {
+    "nickname": "Ivan",
+    "level": 16,
+    "inventory": ["stone_pickaxe", "bread", "shield"],
+    "location": "savanna"
+  },
+  {
+    "nickname": "Yana",
+    "level": 28,
+    "inventory": ["crossbow", "arrow", "torch"],
+    "location": "mountains"
+  },
+  {
+    "nickname": "Kolya",
+    "level": 6,
+    "inventory": ["wooden_pickaxe", "apple", "stick"],
+    "location": "plains"
+  },
+  {
+    "nickname": "Masha",
+    "level": 19,
+    "inventory": ["iron_sword", "shield", "carrot"],
+    "location": "forest"
+  },
+  {
+    "nickname": "Petr",
+    "level": 34,
+    "inventory": ["diamond_helmet", "diamond_sword", "torch"],
+    "location": "end"
+  },
+  {
+    "nickname": "Liza",
+    "level": 11,
+    "inventory": ["stone_axe", "bread", "apple"],
+    "location": "village"
+  },
+  {
+    "nickname": "Artur",
+    "level": 40,
+    "inventory": ["netherite_sword", "ender_eye", "golden_apple"],
+    "location": "nether"
+  },
+  {
+    "nickname": "Nastya",
+    "level": 13,
+    "inventory": ["iron_shovel", "coal", "torch"],
+    "location": "cave"
+  },
+  {
+    "nickname": "Roma",
+    "level": 17,
+    "inventory": ["stone_sword", "bread", "arrow"],
+    "location": "swamp"
+  },
+  {
+    "nickname": "Vera",
+    "level": 23,
+    "inventory": ["bow", "arrow", "apple"],
+    "location": "forest"
+  }
+]
