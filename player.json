@@ -1,0 +1,9 @@
+{
+  "id": 1,
+  "name": "Steve",
+  "health": 20,
+  "level": 15,
+  "inventory": ["iron_sword", "bread"],
+  "location": "forest"
+}
+
