@@ -1,0 +1,1336 @@
+[
+  {
+    "id": "bat",
+    "name": "Bat / Летучая мышь",
+    "category": "animal",
+    "hostility": "passive",
+    "health": 6,
+    "attack": 0,
+    "drops": [],
+    "xp": "0",
+    "spawn_biomes": [
+      "caves"
+    ],
+    "notes": "Мелкий пассивный моб, обитает в пещерах."
+  },
+  {
+    "id": "chicken",
+    "name": "Chicken / Курица",
+    "category": "animal",
+    "hostility": "passive",
+    "health": 4,
+    "attack": 0,
+    "drops": [
+      "Raw Chicken",
+      "Feather",
+      "Egg"
+    ],
+    "xp": "1-3",
+    "spawn_biomes": [
+      "plains",
+      "forest"
+    ],
+    "notes": "Несёт яйца, даёт мясо и перья."
+  },
+  {
+    "id": "cow",
+    "name": "Cow / Корова",
+    "category": "animal",
+    "hostility": "passive",
+    "health": 10,
+    "attack": 0,
+    "drops": [
+      "Raw Beef",
+      "Leather"
+    ],
+    "xp": "1-3",
+    "spawn_biomes": [
+      "plains",
+      "forest"
+    ],
+    "notes": "Дает молоко при доении."
+  },
+  {
+    "id": "pig",
+    "name": "Pig / Свинья",
+    "category": "animal",
+    "hostility": "passive",
+    "health": 10,
+    "attack": 0,
+    "drops": [
+      "Raw Porkchop"
+    ],
+    "xp": "1-3",
+    "spawn_biomes": [
+      "plains"
+    ],
+    "notes": "Источник свинины; можно ездить с седлом."
+  },
+  {
+    "id": "sheep",
+    "name": "Sheep / Овца",
+    "category": "animal",
+    "hostility": "passive",
+    "health": 8,
+    "attack": 0,
+    "drops": [
+      "Wool",
+      "Mutton"
+    ],
+    "xp": "1-3",
+    "spawn_biomes": [
+      "plains",
+      "forest"
+    ],
+    "notes": "Шерсть разных цветов, стрижка."
+  },
+  {
+    "id": "rabbit",
+    "name": "Rabbit / Кролик",
+    "category": "animal",
+    "hostility": "passive",
+    "health": 3,
+    "attack": 0,
+    "drops": [
+      "Raw Rabbit",
+      "Rabbit Foot"
+    ],
+    "xp": "1-3",
+    "spawn_biomes": [
+      "plains",
+      "forest"
+    ],
+    "notes": "Мелкий моб, даёт мясо и шкурки."
+  },
+  {
+    "id": "horse",
+    "name": "Horse / Лошадь",
+    "category": "animal",
+    "hostility": "passive",
+    "health": 30,
+    "attack": 0,
+    "drops": [],
+    "xp": "1-3",
+    "spawn_biomes": [
+      "plains"
+    ],
+    "notes": "Используется для езды после оседлания."
+  },
+  {
+    "id": "donkey",
+    "name": "Donkey / Осёл",
+    "category": "animal",
+    "hostility": "passive",
+    "health": 30,
+    "attack": 0,
+    "drops": [],
+    "xp": "1-3",
+    "spawn_biomes": [
+      "plains"
+    ],
+    "notes": "Носильный зверь, можно класть сундук."
+  },
+  {
+    "id": "mule",
+    "name": "Mule / Мул",
+    "category": "animal",
+    "hostility": "passive",
+    "health": 30,
+    "attack": 0,
+    "drops": [],
+    "xp": "1-3",
+    "spawn_biomes": [
+      "plains"
+    ],
+    "notes": "Гибрид лошади и осла, носильный."
+  },
+  {
+    "id": "llama",
+    "name": "Llama / Лама",
+    "category": "animal",
+    "hostility": "neutral",
+    "health": 15,
+    "attack": 1,
+    "drops": [
+      "Leather"
+    ],
+    "xp": "1-3",
+    "spawn_biomes": [
+      "mountains",
+      "savanna"
+    ],
+    "notes": "Может плеваться; используется в караванах."
+  },
+  {
+    "id": "mooshroom",
+    "name": "Mooshroom / Мушрум-корова",
+    "category": "animal",
+    "hostility": "passive",
+    "health": 10,
+    "attack": 0,
+    "drops": [
+      "Mushroom",
+      "Raw Beef"
+    ],
+    "xp": "1-3",
+    "spawn_biomes": [
+      "mushroom_island"
+    ],
+    "notes": "Даёт молоко и грибной суп при доении специальным ковшом."
+  },
+  {
+    "id": "wolf",
+    "name": "Wolf / Волк",
+    "category": "animal",
+    "hostility": "neutral",
+    "health": 8,
+    "attack": 4,
+    "drops": [
+      "Bone",
+      "String (rare)"
+    ],
+    "xp": "3",
+    "spawn_biomes": [
+      "forest",
+      "taiga"
+    ],
+    "notes": "Можно приручить в собаку; защищает игрока."
+  },
+  {
+    "id": "ocelot",
+    "name": "Ocelot / Оцелот",
+    "category": "animal",
+    "hostility": "passive",
+    "health": 10,
+    "attack": 0,
+    "drops": [],
+    "xp": "1-3",
+    "spawn_biomes": [
+      "jungle"
+    ],
+    "notes": "Дикая кошка; пугает криперов."
+  },
+  {
+    "id": "cat",
+    "name": "Cat / Кот",
+    "category": "animal",
+    "hostility": "passive",
+    "health": 10,
+    "attack": 0,
+    "drops": [],
+    "xp": "1-3",
+    "spawn_biomes": [
+      "villages",
+      "jungle"
+    ],
+    "notes": "Приручённый оцелот; отпугивает фантомов."
+  },
+  {
+    "id": "parrot",
+    "name": "Parrot / Попугай",
+    "category": "animal",
+    "hostility": "passive",
+    "health": 6,
+    "attack": 0,
+    "drops": [],
+    "xp": "1-3",
+    "spawn_biomes": [
+      "jungle"
+    ],
+    "notes": "Иммитирует звуки мобов."
+  },
+  {
+    "id": "polar_bear",
+    "name": "Polar Bear / Белый медведь",
+    "category": "animal",
+    "hostility": "neutral",
+    "health": 30,
+    "attack": 6,
+    "drops": [
+      "Raw Salmon",
+      "Raw Cod",
+      "Polar Bear Fur"
+    ],
+    "xp": "1-3",
+    "spawn_biomes": [
+      "snow"
+    ],
+    "notes": "Агрессивен при защите детёныша."
+  },
+  {
+    "id": "fox",
+    "name": "Fox / Лиса",
+    "category": "animal",
+    "hostility": "neutral",
+    "health": 10,
+    "attack": 2,
+    "drops": [],
+    "xp": "1-3",
+    "spawn_biomes": [
+      "taiga"
+    ],
+    "notes": "Крадёт предметы; активен ночью."
+  },
+  {
+    "id": "panda",
+    "name": "Panda / Панда",
+    "category": "animal",
+    "hostility": "neutral",
+    "health": 20,
+    "attack": 2,
+    "drops": [
+      "Bamboo"
+    ],
+    "xp": "1-3",
+    "spawn_biomes": [
+      "bamboo_jungle"
+    ],
+    "notes": "Разные повадки (lazy, aggressive и т.д.)."
+  },
+  {
+    "id": "bee",
+    "name": "Bee / Пчела",
+    "category": "animal",
+    "hostility": "neutral",
+    "health": 10,
+    "attack": 2,
+    "drops": [
+      "Honeycomb",
+      "Honey Bottle"
+    ],
+    "xp": "1-3",
+    "spawn_biomes": [
+      "flower_forest",
+      "plains"
+    ],
+    "notes": "Производит мёд; агрессивны при атаке улья."
+  },
+  {
+    "id": "turtle",
+    "name": "Turtle / Черепаха",
+    "category": "animal",
+    "hostility": "passive",
+    "health": 30,
+    "attack": 0,
+    "drops": [
+      "Scute"
+    ],
+    "xp": "1-3",
+    "spawn_biomes": [
+      "beach"
+    ],
+    "notes": "Откладывает яйца; даёт панцири черепахи."
+  },
+  {
+    "id": "rabbit",
+    "name": "Rabbit / Кролик",
+    "category": "animal",
+    "hostility": "passive",
+    "health": 3,
+    "attack": 0,
+    "drops": [
+      "Rabbit Hide",
+      "Raw Rabbit"
+    ],
+    "xp": "1-2",
+    "spawn_biomes": [
+      "plains",
+      "desert"
+    ],
+    "notes": "Маленький пассивный моб."
+  },
+  {
+    "id": "camel",
+    "name": "Camel / Верблюд",
+    "category": "animal",
+    "hostility": "passive",
+    "health": 30,
+    "attack": 0,
+    "drops": [],
+    "xp": "1-3",
+    "spawn_biomes": [
+      "desert"
+    ],
+    "notes": "Ездовая моб-единица (зависит от версии)."
+  },
+  {
+    "id": "penguin",
+    "name": "Penguin / Пингвин",
+    "category": "animal",
+    "hostility": "passive",
+    "health": 8,
+    "attack": 0,
+    "drops": [],
+    "xp": "1-3",
+    "spawn_biomes": [
+      "cold"
+    ],
+    "notes": "Встречается в холодных биомах (зависит от версии)."
+  },
+  {
+    "id": "sniffer",
+    "name": "Sniffer / Шниффер",
+    "category": "animal",
+    "hostility": "passive",
+    "health": 20,
+    "attack": 0,
+    "drops": [],
+    "xp": "1-3",
+    "spawn_biomes": [
+      "ancient_ruins"
+    ],
+    "notes": "Нюхает древние семена; добавлен в обновления."
+  },
+  {
+    "id": "axolotl",
+    "name": "Axolotl / Аксолотль",
+    "category": "aquatic",
+    "hostility": "neutral",
+    "health": 14,
+    "attack": 2,
+    "drops": [],
+    "xp": "1-3",
+    "spawn_biomes": [
+      "lush_caves"
+    ],
+    "notes": "Помогает атаковать подводных мобов; лечит игрока под водой."
+  },
+  {
+    "id": "cod",
+    "name": "Cod / Треска",
+    "category": "aquatic",
+    "hostility": "passive",
+    "health": 3,
+    "attack": 0,
+    "drops": [
+      "Raw Cod"
+    ],
+    "xp": "0-1",
+    "spawn_biomes": [
+      "ocean"
+    ],
+    "notes": "Обычная рыба."
+  },
+  {
+    "id": "salmon",
+    "name": "Salmon / Лосось",
+    "category": "aquatic",
+    "hostility": "passive",
+    "health": 3,
+    "attack": 0,
+    "drops": [
+      "Raw Salmon"
+    ],
+    "xp": "0-1",
+    "spawn_biomes": [
+      "river",
+      "ocean"
+    ],
+    "notes": "Рыба."
+  },
+  {
+    "id": "tropical_fish",
+    "name": "Tropical Fish / Тропическая рыба",
+    "category": "aquatic",
+    "hostility": "passive",
+    "health": 3,
+    "attack": 0,
+    "drops": [],
+    "xp": "0-1",
+    "spawn_biomes": [
+      "warm_ocean"
+    ],
+    "notes": "Много вариаций внешнего вида."
+  },
+  {
+    "id": "pufferfish",
+    "name": "Pufferfish / Иглобрюх",
+    "category": "aquatic",
+    "hostility": "passive",
+    "health": 3,
+    "attack": 0,
+    "drops": [
+      "Pufferfish"
+    ],
+    "xp": "0-1",
+    "spawn_biomes": [
+      "ocean"
+    ],
+    "notes": "Надувается и наносит урон при опасности."
+  },
+  {
+    "id": "squid",
+    "name": "Squid / Кальмар",
+    "category": "aquatic",
+    "hostility": "passive",
+    "health": 10,
+    "attack": 0,
+    "drops": [
+      "Ink Sac"
+    ],
+    "xp": "1-3",
+    "spawn_biomes": [
+      "ocean",
+      "river"
+    ],
+    "notes": "Дает чернильный мешок."
+  },
+  {
+    "id": "glow_squid",
+    "name": "Glow Squid / Светящийся кальмар",
+    "category": "aquatic",
+    "hostility": "passive",
+    "health": 10,
+    "attack": 0,
+    "drops": [
+      "Glow Ink Sac"
+    ],
+    "xp": "1-3",
+    "spawn_biomes": [
+      "deep_water"
+    ],
+    "notes": "Светящийся вариант кальмара."
+  },
+  {
+    "id": "dolphin",
+    "name": "Dolphin / Дельфин",
+    "category": "aquatic",
+    "hostility": "passive",
+    "health": 10,
+    "attack": 0,
+    "drops": [
+      "Raw Cod"
+    ],
+    "xp": "1-3",
+    "spawn_biomes": [
+      "ocean"
+    ],
+    "notes": "Помогает игроку плавать быстрее."
+  },
+  {
+    "id": "guardian",
+    "name": "Guardian / Страж",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": 30,
+    "attack": "laser",
+    "drops": [
+      "Prismarine Shard",
+      "Raw Cod"
+    ],
+    "xp": "10",
+    "spawn_biomes": [
+      "ocean_monument"
+    ],
+    "notes": "Охраняет океанические памятники."
+  },
+  {
+    "id": "elder_guardian",
+    "name": "Elder Guardian / Старший страж",
+    "category": "boss",
+    "hostility": "hostile",
+    "health": 80,
+    "attack": "laser",
+    "drops": [
+      "Sponges",
+      "Prismarine Shard"
+    ],
+    "xp": "25",
+    "spawn_biomes": [
+      "ocean_monument"
+    ],
+    "notes": "Мини-босс в океаническом храме."
+  },
+  {
+    "id": "drowned",
+    "name": "Drowned / Утопленник",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": 20,
+    "attack": 3,
+    "drops": [
+      "Rotten Flesh",
+      "Trident (rare)"
+    ],
+    "xp": "5",
+    "spawn_biomes": [
+      "ocean",
+      "river"
+    ],
+    "notes": "Водный вариант зомби, иногда держит трезубец."
+  },
+  {
+    "id": "skeleton",
+    "name": "Skeleton / Скелет",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": 20,
+    "attack": 4,
+    "drops": [
+      "Bones",
+      "Arrows",
+      "Bow (rare)"
+    ],
+    "xp": "5",
+    "spawn_biomes": [
+      "overworld",
+      "caves"
+    ],
+    "notes": "Стреляет из лука."
+  },
+  {
+    "id": "stray",
+    "name": "Stray / Стрей",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": 20,
+    "attack": 4,
+    "drops": [
+      "Arrows",
+      "Bones"
+    ],
+    "xp": "5",
+    "spawn_biomes": [
+      "cold_biomes"
+    ],
+    "notes": "Скелет с замедляющими стрелами."
+  },
+  {
+    "id": "wither_skeleton",
+    "name": "Wither Skeleton / Скелет-иссушитель",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": 20,
+    "attack": 5,
+    "drops": [
+      "Coal",
+      "Stone Sword (rare)"
+    ],
+    "xp": "5",
+    "spawn_biomes": [
+      "nether_fortress"
+    ],
+    "notes": "Верхний вариант: наносит урон с голодом/иссушением."
+  },
+  {
+    "id": "spider",
+    "name": "Spider / Паук",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": 16,
+    "attack": 2,
+    "drops": [
+      "String",
+      "Spider Eye"
+    ],
+    "xp": "5",
+    "spawn_biomes": [
+      "overworld",
+      "caves"
+    ],
+    "notes": "Может карабкаться по стенам."
+  },
+  {
+    "id": "cave_spider",
+    "name": "Cave Spider / Пещерный паук",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": 12,
+    "attack": 2,
+    "drops": [
+      "String",
+      "Spider Eye"
+    ],
+    "xp": "5",
+    "spawn_biomes": [
+      "mineshafts"
+    ],
+    "notes": "Ядовитые укусы; меньше по размеру."
+  },
+  {
+    "id": "creeper",
+    "name": "Creeper / Крипер",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": 20,
+    "attack": "explosion (~49)",
+    "drops": [
+      "Gunpowder",
+      "Music Disc (rare)"
+    ],
+    "xp": "5",
+    "spawn_biomes": [
+      "overworld"
+    ],
+    "notes": "Подкрадывается и взрывается."
+  },
+  {
+    "id": "enderman",
+    "name": "Enderman / Эндермен",
+    "category": "monster",
+    "hostility": "neutral",
+    "health": 40,
+    "attack": 7,
+    "drops": [
+      "Ender Pearl"
+    ],
+    "xp": "5",
+    "spawn_biomes": [
+      "overworld",
+      "end"
+    ],
+    "notes": "Телепортируется; становится враждебным при взгляде."
+  },
+  {
+    "id": "endermite",
+    "name": "Endermite / Эндермит",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": 8,
+    "attack": 2,
+    "drops": [
+      "Ender Pearl (rare)"
+    ],
+    "xp": "3",
+    "spawn_biomes": [
+      "end",
+      "ender_pearl_spawn"
+    ],
+    "notes": "Мелкий моб, появляется при использовании жемчуга Эндер."
+  },
+  {
+    "id": "silverfish",
+    "name": "Silverfish / Серебристая рыбка",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": 8,
+    "attack": 2,
+    "drops": [],
+    "xp": "3",
+    "spawn_biomes": [
+      "strongholds"
+    ],
+    "notes": "Появляются из каменных блоков."
+  },
+  {
+    "id": "witch",
+    "name": "Witch / Ведьма",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": 26,
+    "attack": "potions",
+    "drops": [
+      "Glass Bottle",
+      "Glowstone Dust"
+    ],
+    "xp": "5",
+    "spawn_biomes": [
+      "swamp",
+      "villages"
+    ],
+    "notes": "Кидает зелья: урон/отравление/лечение."
+  },
+  {
+    "id": "vex",
+    "name": "Vex / Векс",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": 14,
+    "attack": 4,
+    "drops": [],
+    "xp": "6",
+    "spawn_biomes": [
+      "raids",
+      "evoker"
+    ],
+    "notes": "Маленький летающий дух, призываемый чародеем."
+  },
+  {
+    "id": "evoker",
+    "name": "Evoker / Чародей",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": 24,
+    "attack": 6,
+    "drops": [
+      "Totem of Undying (rare)"
+    ],
+    "xp": "10",
+    "spawn_biomes": [
+      "woodland_mansion",
+      "raids"
+    ],
+    "notes": "Призывает снежных и волчьих заклинаний; даёт тотем."
+  },
+  {
+    "id": "vindicator",
+    "name": "Vindicator / Мститель",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": 24,
+    "attack": 7,
+    "drops": [
+      "Iron Axe (rare)"
+    ],
+    "xp": "5",
+    "spawn_biomes": [
+      "woodland_mansion",
+      "raids"
+    ],
+    "notes": "Сильный ближний боец иллегеров."
+  },
+  {
+    "id": "pillager",
+    "name": "Pillager / Дозорный",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": 24,
+    "attack": 7,
+    "drops": [
+      "Crossbow (rare)"
+    ],
+    "xp": "5",
+    "spawn_biomes": [
+      "pillager_outpost",
+      "raids"
+    ],
+    "notes": "Стреляет из арбалета; участвует в рейдах."
+  },
+  {
+    "id": "ravager",
+    "name": "Ravager / Разрушитель",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": 100,
+    "attack": 15,
+    "drops": [
+      "Saddle (rare)"
+    ],
+    "xp": "20",
+    "spawn_biomes": [
+      "raids"
+    ],
+    "notes": "Большой моб, сопровождает рейды."
+  },
+  {
+    "id": "illusioner",
+    "name": "Illusioner / Иллюзионист",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": 24,
+    "attack": "magic",
+    "drops": [],
+    "xp": "10",
+    "spawn_biomes": [
+      "woodland_mansion (rare)"
+    ],
+    "notes": "Создаёт свои копии (не во всех версиях активен)."
+  },
+  {
+    "id": "guardian_shrine",
+    "name": "Guardian (variant) / Страж (вариант)",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": 30,
+    "attack": "laser",
+    "drops": [
+      "Prismarine"
+    ],
+    "xp": "10",
+    "spawn_biomes": [
+      "ocean_monument"
+    ],
+    "notes": "Обычный страж."
+  },
+  {
+    "id": "slime",
+    "name": "Slime / Слайм",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": "varies",
+    "attack": 3,
+    "drops": [
+      "Slimeball"
+    ],
+    "xp": "4",
+    "spawn_biomes": [
+      "swamp",
+      "underground"
+    ],
+    "notes": "Делится на меньшие при смерти."
+  },
+  {
+    "id": "magma_cube",
+    "name": "Magma Cube / Магмовый куб",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": "varies",
+    "attack": 4,
+    "drops": [
+      "Magma Cream"
+    ],
+    "xp": "4-12",
+    "spawn_biomes": [
+      "nether"
+    ],
+    "notes": "Аналог слайма в Нижнем мире."
+  },
+  {
+    "id": "ghast",
+    "name": "Ghast / Призрак",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": 10,
+    "attack": "fireball",
+    "drops": [
+      "Ghast Tear"
+    ],
+    "xp": "5",
+    "spawn_biomes": [
+      "nether"
+    ],
+    "notes": "Летает и стреляет огненными шарами."
+  },
+  {
+    "id": "blaze",
+    "name": "Blaze / Блейз",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": 20,
+    "attack": "fireball",
+    "drops": [
+      "Blaze Rod"
+    ],
+    "xp": "10",
+    "spawn_biomes": [
+      "nether_fortress"
+    ],
+    "notes": "Стреляет огнём; даёт стержни блейза."
+  },
+  {
+    "id": "piglin",
+    "name": "Piglin / Пиглин",
+    "category": "monster",
+    "hostility": "neutral",
+    "health": 16,
+    "attack": 6,
+    "drops": [
+      "Gold Nugget"
+    ],
+    "xp": "5",
+    "spawn_biomes": [
+      "nether"
+    ],
+    "notes": "Нейтральны при наличии золота у игрока."
+  },
+  {
+    "id": "zombified_piglin",
+    "name": "Zombified Piglin / Зомбированный пиглин",
+    "category": "monster",
+    "hostility": "neutral",
+    "health": 20,
+    "attack": 6,
+    "drops": [
+      "Gold Nugget"
+    ],
+    "xp": "5",
+    "spawn_biomes": [
+      "nether"
+    ],
+    "notes": "Нейтральны, но агрессивны при атаке."
+  },
+  {
+    "id": "hoglin",
+    "name": "Hoglin / Хоглин",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": 40,
+    "attack": 8,
+    "drops": [
+      "Raw Porkchop"
+    ],
+    "xp": "5",
+    "spawn_biomes": [
+      "crimson_forest"
+    ],
+    "notes": "Агрессивный моб Недера; даёт мясо."
+  },
+  {
+    "id": "strider",
+    "name": "Strider / Страйдер",
+    "category": "animal",
+    "hostility": "passive",
+    "health": 20,
+    "attack": 0,
+    "drops": [
+      "String"
+    ],
+    "xp": "1-3",
+    "spawn_biomes": [
+      "nether_lava"
+    ],
+    "notes": "Ездовое существо по лаве; не агрессивно."
+  },
+  {
+    "id": "piglin_brute",
+    "name": "Piglin Brute / Брутальный пиглин",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": 50,
+    "attack": 13,
+    "drops": [
+      "Golden Axe (rare)"
+    ],
+    "xp": "20",
+    "spawn_biomes": [
+      "bastion_remnants"
+    ],
+    "notes": "Сильный охранник бастионов."
+  },
+  {
+    "id": "shulker",
+    "name": "Shulker / Шалкер",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": 30,
+    "attack": "projectile",
+    "drops": [
+      "Shulker Shell"
+    ],
+    "xp": "5",
+    "spawn_biomes": [
+      "end_cities"
+    ],
+    "notes": "Стреляет гоминг-пулями, даёт шалкер-шелл."
+  },
+  {
+    "id": "endermite",
+    "name": "Endermite / Эндермит",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": 8,
+    "attack": 2,
+    "drops": [],
+    "xp": "3",
+    "spawn_biomes": [
+      "end",
+      "ender_pearl_spawn"
+    ],
+    "notes": "Появляется при использовании жемчуга Эндер."
+  },
+  {
+    "id": "silverfish",
+    "name": "Silverfish / Серебристая рыбка",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": 8,
+    "attack": 2,
+    "drops": [],
+    "xp": "3",
+    "spawn_biomes": [
+      "strongholds"
+    ],
+    "notes": "Появляется из каменных блоков в сильхолде."
+  },
+  {
+    "id": "phantom",
+    "name": "Phantom / Фантом",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": 20,
+    "attack": 6,
+    "drops": [
+      "Phantom Membrane"
+    ],
+    "xp": "5",
+    "spawn_biomes": [
+      "overworld_night"
+    ],
+    "notes": "Появляется при длительном отсутствии сна у игрока."
+  },
+  {
+    "id": "vindicator",
+    "name": "Vindicator / Мститель",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": 24,
+    "attack": 7,
+    "drops": [
+      "Iron Axe (rare)"
+    ],
+    "xp": "5",
+    "spawn_biomes": [
+      "woodland_mansion",
+      "raids"
+    ],
+    "notes": "Иллегер ближнего боя."
+  },
+  {
+    "id": "pillager",
+    "name": "Pillager / Дозорный",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": 24,
+    "attack": 7,
+    "drops": [
+      "Crossbow (rare)"
+    ],
+    "xp": "5",
+    "spawn_biomes": [
+      "pillager_outpost",
+      "raids"
+    ],
+    "notes": "Стреляет из арбалета."
+  },
+  {
+    "id": "evoker",
+    "name": "Evoker / Чародей",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": 24,
+    "attack": 6,
+    "drops": [
+      "Totem of Undying (rare)"
+    ],
+    "xp": "10",
+    "spawn_biomes": [
+      "raids",
+      "woodland_mansion"
+    ],
+    "notes": "Вызывает векторов и фангсов."
+  },
+  {
+    "id": "ravager",
+    "name": "Ravager / Разрушитель",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": 100,
+    "attack": 15,
+    "drops": [
+      "Saddle (rare)"
+    ],
+    "xp": "20",
+    "spawn_biomes": [
+      "raids"
+    ],
+    "notes": "Большой мощный моб рейдов."
+  },
+  {
+    "id": "villager",
+    "name": "Villager / Житель",
+    "category": "npc",
+    "hostility": "friendly",
+    "health": 20,
+    "attack": 0,
+    "drops": [],
+    "xp": "0",
+    "spawn_biomes": [
+      "villages"
+    ],
+    "notes": "Торгует с игроком; разные профессии."
+  },
+  {
+    "id": "wandering_trader",
+    "name": "Wandering Trader / Бродячий торговец",
+    "category": "npc",
+    "hostility": "friendly",
+    "health": 20,
+    "attack": 0,
+    "drops": [],
+    "xp": "0",
+    "spawn_biomes": [
+      "overworld"
+    ],
+    "notes": "Появляется случайно, сопровождается ламами."
+  },
+  {
+    "id": "trader_llama",
+    "name": "Trader Llama / Лама торговца",
+    "category": "animal",
+    "hostility": "neutral",
+    "health": 15,
+    "attack": 1,
+    "drops": [
+      "Leather"
+    ],
+    "xp": "1-3",
+    "spawn_biomes": [
+      "overworld"
+    ],
+    "notes": "Сопровождает бродячего торговца."
+  },
+  {
+    "id": "iron_golem",
+    "name": "Iron Golem / Железный голем",
+    "category": "utility",
+    "hostility": "friendly",
+    "health": 100,
+    "attack": 15,
+    "drops": [
+      "Iron Ingot",
+      "Poppy"
+    ],
+    "xp": "0",
+    "spawn_biomes": [
+      "villages"
+    ],
+    "notes": "Защищает деревни от монстров."
+  },
+  {
+    "id": "snow_golem",
+    "name": "Snow Golem / Снежный голем",
+    "category": "utility",
+    "hostility": "friendly",
+    "health": 4,
+    "attack": 0,
+    "drops": [
+      "Snowball"
+    ],
+    "xp": "0",
+    "spawn_biomes": [
+      "player_created"
+    ],
+    "notes": "Бросает снежки и тает в жарких биомах."
+  },
+  {
+    "id": "allay",
+    "name": "Allay / Аллай",
+    "category": "utility",
+    "hostility": "friendly",
+    "health": 20,
+    "attack": 0,
+    "drops": [],
+    "xp": "0",
+    "spawn_biomes": [
+      "pillager_outpost",
+      "woodland_mansion"
+    ],
+    "notes": "Собирает и приносит предметы игроку."
+  },
+  {
+    "id": "tadpole",
+    "name": "Tadpole / Головастик",
+    "category": "animal",
+    "hostility": "passive",
+    "health": 6,
+    "attack": 0,
+    "drops": [],
+    "xp": "0",
+    "spawn_biomes": [
+      "swamp",
+      "mangrove_swamp"
+    ],
+    "notes": "Молодая форма лягушки; вырастает."
+  },
+  {
+    "id": "frog",
+    "name": "Frog / Лягушка",
+    "category": "animal",
+    "hostility": "passive",
+    "health": 10,
+    "attack": 0,
+    "drops": [],
+    "xp": "1-3",
+    "spawn_biomes": [
+      "swamp",
+      "mangrove_swamp"
+    ],
+    "notes": "Ест мелких мобов; разные виды."
+  },
+  {
+    "id": "goat",
+    "name": "Goat / Козёл",
+    "category": "animal",
+    "hostility": "neutral",
+    "health": 30,
+    "attack": 4,
+    "drops": [
+      "Raw Goat Meat"
+    ],
+    "xp": "1-3",
+    "spawn_biomes": [
+      "mountains"
+    ],
+    "notes": "Может бить рогами и падать с высоты."
+  },
+  {
+    "id": "sheep",
+    "name": "Sheep_duplicate",
+    "category": "animal",
+    "hostility": "passive",
+    "health": 8,
+    "attack": 0,
+    "drops": [
+      "Wool"
+    ],
+    "xp": "1-3",
+    "spawn_biomes": [
+      "plains"
+    ],
+    "notes": "(дубликат для полноты списка)."
+  },
+  {
+    "id": "warden",
+    "name": "Warden / Сторож",
+    "category": "boss",
+    "hostility": "hostile",
+    "health": 500,
+    "attack": "melee (~30), sonic boom (~15)",
+    "drops": [
+      "Sculk Catalyst"
+    ],
+    "xp": "50",
+    "spawn_biomes": [
+      "deep_dark"
+    ],
+    "notes": "Сильный слепой моб, реагирует на звук и вибрации."
+  },
+  {
+    "id": "witherskeleton",
+    "name": "Wither Skeleton / Скелет-иссушитель (duplicate)",
+    "category": "monster",
+    "hostility": "hostile",
+    "health": 20,
+    "attack": 5,
+    "drops": [
+      "Coal"
+    ],
+    "xp": "5",
+    "spawn_biomes": [
+      "nether_fortress"
+    ],
+    "notes": "(дубликат для полноты)."
+  },
+  {
+    "id": "wither",
+    "name": "Wither / Визер",
+    "category": "boss",
+    "hostility": "boss",
+    "health": 300,
+    "attack": "explosive skulls (~8)",
+    "drops": [
+      "Nether Star"
+    ],
+    "xp": "50",
+    "spawn_biomes": [
+      "player_summoned"
+    ],
+    "notes": "Создаётся игроком; мощный босс."
+  },
+  {
+    "id": "ender_dragon",
+    "name": "Ender Dragon / Дракон Края",
+    "category": "boss",
+    "hostility": "boss",
+    "health": 200,
+    "attack": "bite (~15), charge (~10)",
+    "drops": [
+      "Dragon Egg"
+    ],
+    "xp": "12000",
+    "spawn_biomes": [
+      "end"
+    ],
+    "notes": "Финальный босс Энда."
+  }
+]
