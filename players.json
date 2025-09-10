@@ -3,13 +3,13 @@
     {
       "name": "Steve",
       "level": 12,
-      "inventory": ["iron_sword", "bread", "torch"],
+      "inventory": ["iron_sword", "bread"],
       "location": "forest"
     },
     {
       "name": "Alex",
       "level": 20,
-      "inventory": ["diamond_pickaxe", "apple", "bucket"],
+      "inventory": ["torch", "apple"],
       "location": "desert"
     },
     {
