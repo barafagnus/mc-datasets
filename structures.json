@@ -1,7 +1,6 @@
 {
   "structures": {
     "house": [
-      # --- Пол (y = 0, 5×5) ---
       {"x": 0, "y": 0, "z": 0, "block": "STONE_BRICKS"},
       {"x": 1, "y": 0, "z": 0, "block": "STONE_BRICKS"},
       {"x": 2, "y": 0, "z": 0, "block": "STONE_BRICKS"},
@@ -28,7 +27,6 @@
       {"x": 3, "y": 0, "z": 4, "block": "STONE_BRICKS"},
       {"x": 4, "y": 0, "z": 4, "block": "STONE_BRICKS"},
 
-      // --- Стены (y = 1 → 3, периметр) ---
       {"x": 0, "y": 1, "z": 0, "block": "STONE_BRICKS"},
       {"x": 1, "y": 1, "z": 0, "block": "GLASS"},
       {"x": 2, "y": 1, "z": 0, "block": "DOOR"},
@@ -50,7 +48,6 @@
       {"x": 3, "y": 1, "z": 4, "block": "GLASS"},
       {"x": 4, "y": 1, "z": 4, "block": "STONE_BRICKS"},
 
-      // второй ряд (y=2), стены с окнами
       {"x": 0, "y": 2, "z": 0, "block": "STONE_BRICKS"},
       {"x": 1, "y": 2, "z": 0, "block": "GLASS"},
       {"x": 2, "y": 2, "z": 0, "block": "STONE_BRICKS"},
@@ -72,7 +69,6 @@
       {"x": 3, "y": 2, "z": 4, "block": "GLASS"},
       {"x": 4, "y": 2, "z": 4, "block": "STONE_BRICKS"},
 
-      // третий ряд (y=3), глухие стены
       {"x": 0, "y": 3, "z": 0, "block": "STONE_BRICKS"},
       {"x": 1, "y": 3, "z": 0, "block": "STONE_BRICKS"},
       {"x": 2, "y": 3, "z": 0, "block": "STONE_BRICKS"},
@@ -90,7 +86,6 @@
       {"x": 3, "y": 3, "z": 4, "block": "STONE_BRICKS"},
       {"x": 4, "y": 3, "z": 4, "block": "STONE_BRICKS"},
 
-      // --- Крыша (y = 4, 5×5) ---
       {"x": 0, "y": 4, "z": 0, "block": "STONE_BRICKS"},
       {"x": 1, "y": 4, "z": 0, "block": "STONE_BRICKS"},
       {"x": 2, "y": 4, "z": 0, "block": "STONE_BRICKS"},
@@ -117,7 +112,6 @@
       {"x": 3, "y": 4, "z": 4, "block": "STONE_BRICKS"},
       {"x": 4, "y": 4, "z": 4, "block": "STONE_BRICKS"},
 
-      // --- Интерьер ---
       {"x": 1, "y": 1, "z": 1, "block": "BED"},
       {"x": 3, "y": 1, "z": 1, "block": "CHEST"},
       {"x": 2, "y": 1, "z": 3, "block": "CRAFTING_TABLE"},
