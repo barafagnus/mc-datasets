@@ -1,0 +1,34 @@
+{
+  "memes": [
+    {
+      "id": 1,
+      "title": "Distracted Boyfriend",
+      "description": "Парень оглядывается на другую девушку, пока его подруга возмущается.",
+      "image_url": "https://i.imgur.com/Jg3Hg.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Woman Yelling at a Cat",
+      "description": "Женщина кричит за столом, а рядом сидит белый кот.",
+      "image_url": "https://i.imgur.com/2b8cQ.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Drake Hotline Bling",
+      "description": "Дрейк сначала отмахивается, потом показывает одобрение.",
+      "image_url": "https://i.imgur.com/VwQ1Q.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Success Kid",
+      "description": "Маленький мальчик с кулачком, символизирующий успех.",
+      "image_url": "https://i.imgur.com/1zKQp.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Grumpy Cat",
+      "description": "Знаменитый кот с вечно недовольной мордой.",
+      "image_url": "https://i.imgur.com/tpWfQ.jpg"
+    }
+  ]
+}
