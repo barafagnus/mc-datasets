@@ -209,15 +209,6 @@
       { "x": 4, "y": 9, "z": 4, "block": "STONE_BRICKS" },
       { "x": 0, "y": 9, "z": 4, "block": "STONE_BRICKS" },
       { "x": 4, "y": 9, "z": 4, "block": "STONE_BRICKS" },
-      { "x": 2, "y": 1, "z": 1, "block": "OAK_STAIRS" },
-      { "x": 3, "y": 2, "z": 2, "block": "OAK_STAIRS" },
-      { "x": 2, "y": 3, "z": 3, "block": "OAK_STAIRS" },
-      { "x": 1, "y": 4, "z": 2, "block": "OAK_STAIRS" },
-      { "x": 2, "y": 5, "z": 1, "block": "OAK_STAIRS" },
-      { "x": 3, "y": 6, "z": 2, "block": "OAK_STAIRS" },
-      { "x": 2, "y": 7, "z": 3, "block": "OAK_STAIRS" },
-      { "x": 1, "y": 8, "z": 2, "block": "OAK_STAIRS" },
-      { "x": 2, "y": 9, "z": 1, "block": "OAK_STAIRS" },
       { "x": 0, "y": 10, "z": 0, "block": "STONE_BRICKS" },
       { "x": 0, "y": 10, "z": 1, "block": "STONE_BRICKS" },
       { "x": 0, "y": 10, "z": 2, "block": "STONE_BRICKS" },
@@ -247,7 +238,8 @@
       { "x": 0, "y": 11, "z": 4, "block": "TORCH" },
       { "x": 4, "y": 11, "z": 0, "block": "TORCH" },
       { "x": 4, "y": 11, "z": 4, "block": "TORCH" },
-      { "x": 2, "y": 0, "z": 0, "block": "AIR" }
+      { "x": 2, "y": 1, "z": 0, "block": "AIR" },
+      { "x": 2, "y": 2, "z": 0, "block": "AIR" }
     ],
     "fountain": [
       { "x": 0, "y": 0, "z": 0, "block": "STONE_BRICKS" },
@@ -532,7 +524,7 @@
       { "x": 4, "y": 4, "z": 4, "block": "STONE_BRICKS" },
       { "x": 3, "y": 1, "z": 1, "block": "CHEST" },
       { "x": 2, "y": 1, "z": 3, "block": "CRAFTING_TABLE" },
-      { "x": 2, "y": 2, "z": 2, "block": "TORCH" }
+      { "x": 2, "y": 1, "z": 2, "block": "TORCH" }
     ],
     "bridge": [
       { "x": 0, "y": 0, "z": 0, "block": "OAK_PLANKS" },
