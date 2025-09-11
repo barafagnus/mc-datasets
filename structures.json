@@ -1,39 +1,39 @@
 {
   "structures": {
     "cross": [
-      {"x": 0, "y": 64, "z": 0, "block": "STONE"},
-      {"x": 0, "y": 65, "z": 0, "block": "STONE"},
-      {"x": 0, "y": 66, "z": 0, "block": "STONE"},
-      {"x": -1, "y": 65, "z": 0, "block": "STONE"},
-      {"x": 1, "y": 65, "z": 0, "block": "STONE"}
+      {"x": 0, "y": 0, "z": 0, "block": "STONE"},
+      {"x": 0, "y": 1, "z": 0, "block": "STONE"},
+      {"x": 0, "y": 2, "z": 0, "block": "STONE"},
+      {"x": -1, "y": 1, "z": 0, "block": "STONE"},
+      {"x": 1, "y": 1, "z": 0, "block": "STONE"}
     ],
     "car": [
-      {"x": 0, "y": 64, "z": 0, "block": "BLACK_WOOL"},
-      {"x": 1, "y": 64, "z": 0, "block": "BLACK_WOOL"},
-      {"x": 0, "y": 64, "z": 2, "block": "BLACK_WOOL"},
-      {"x": 1, "y": 64, "z": 2, "block": "BLACK_WOOL"},
-      {"x": 0, "y": 65, "z": 1, "block": "RED_WOOL"},
-      {"x": 1, "y": 65, "z": 1, "block": "RED_WOOL"},
-      {"x": 0, "y": 66, "z": 1, "block": "GLASS"},
-      {"x": 1, "y": 66, "z": 1, "block": "GLASS"}
+      {"x": 0, "y": 0, "z": 0, "block": "BLACK_WOOL"},
+      {"x": 1, "y": 0, "z": 0, "block": "BLACK_WOOL"},
+      {"x": 0, "y": 0, "z": 2, "block": "BLACK_WOOL"},
+      {"x": 1, "y": 0, "z": 2, "block": "BLACK_WOOL"},
+      {"x": 0, "y": 1, "z": 1, "block": "RED_WOOL"},
+      {"x": 1, "y": 1, "z": 1, "block": "RED_WOOL"},
+      {"x": 0, "y": 2, "z": 1, "block": "GLASS"},
+      {"x": 1, "y": 2, "z": 1, "block": "GLASS"}
     ],
     "bird": [
-      {"x": 0, "y": 64, "z": 0, "block": "WHITE_WOOL"},
-      {"x": 1, "y": 64, "z": 0, "block": "WHITE_WOOL"},
-      {"x": -1, "y": 64, "z": 0, "block": "WHITE_WOOL"},
-      {"x": 0, "y": 65, "z": 0, "block": "WHITE_WOOL"},
-      {"x": 0, "y": 66, "z": 0, "block": "YELLOW_WOOL"},
-      {"x": -2, "y": 64, "z": 0, "block": "WHITE_WOOL"},
-      {"x": 2, "y": 64, "z": 0, "block": "WHITE_WOOL"}
+      {"x": 0, "y": 0, "z": 0, "block": "WHITE_WOOL"},
+      {"x": 1, "y": 0, "z": 0, "block": "WHITE_WOOL"},
+      {"x": -1, "y": 0, "z": 0, "block": "WHITE_WOOL"},
+      {"x": 0, "y": 1, "z": 0, "block": "WHITE_WOOL"},
+      {"x": 0, "y": 2, "z": 0, "block": "YELLOW_WOOL"},
+      {"x": -2, "y": 0, "z": 0, "block": "WHITE_WOOL"},
+      {"x": 2, "y": 0, "z": 0, "block": "WHITE_WOOL"}
     ],
     "sphere": [
-      {"x": 0, "y": 64, "z": 0, "block": "BLUE_WOOL"},
-      {"x": 1, "y": 64, "z": 0, "block": "BLUE_WOOL"},
-      {"x": -1, "y": 64, "z": 0, "block": "BLUE_WOOL"},
-      {"x": 0, "y": 64, "z": 1, "block": "BLUE_WOOL"},
-      {"x": 0, "y": 64, "z": -1, "block": "BLUE_WOOL"},
-      {"x": 0, "y": 65, "z": 0, "block": "BLUE_WOOL"},
-      {"x": 0, "y": 63, "z": 0, "block": "BLUE_WOOL"}
+      {"x": 0, "y": 0, "z": 0, "block": "BLUE_WOOL"},
+      {"x": 1, "y": 0, "z": 0, "block": "BLUE_WOOL"},
+      {"x": -1, "y": 0, "z": 0, "block": "BLUE_WOOL"},
+      {"x": 0, "y": 0, "z": 1, "block": "BLUE_WOOL"},
+      {"x": 0, "y": 0, "z": -1, "block": "BLUE_WOOL"},
+      {"x": 0, "y": 1, "z": 0, "block": "BLUE_WOOL"},
+      {"x": 0, "y": -1, "z": 0, "block": "BLUE_WOOL"}
     ]
   }
 }
