@@ -475,7 +475,7 @@
       { "x": 1, "y": 2, "z": 0, "block": "GLASS" },
       { "x": 1, "y": 2, "z": 4, "block": "GLASS" },
       
-      { "x": 2, "y": 1, "z": 0, "block": "STONE_BRICKS" },
+      { "x": 2, "y": 0, "z": 0, "block": "STONE_BRICKS" },
       { "x": 2, "y": 2, "z": 0, "block": "STONE_BRICKS" },
       
       { "x": 3, "y": 2, "z": 0, "block": "GLASS" },
@@ -494,7 +494,8 @@
       { "x": 1, "y": 3, "z": 4, "block": "STONE_BRICKS" },
       { "x": 2, "y": 3, "z": 0, "block": "STONE_BRICKS" },
       
-      { "x": 2, "y": 0, "z": 4, "block": "STONE_BRICKS" },
+      { "x": 2, "y": 1, "z": 4, "block": "STONE_BRICKS" },
+      { "x": 2, "y": 2, "z": 4, "block": "STONE_BRICKS" },
       
       { "x": 3, "y": 3, "z": 0, "block": "STONE_BRICKS" },
       { "x": 3, "y": 3, "z": 4, "block": "STONE_BRICKS" },
