@@ -796,7 +796,7 @@
       { "x": 0, "y": 2, "z": 6, "block": "GLASS" },
       { "x": 1, "y": 2, "z": 6, "block": "GLASS" },
       { "x": 2, "y": 2, "z": 6, "block": "GLASS" },
-      { "x": 3, "y": 2, "z": 6, "block": "AIR" },
+      { "x": 3, "y": 2, "z": 0, "block": "AIR" },
       { "x": 4, "y": 2, "z": 6, "block": "GLASS" },
       { "x": 5, "y": 2, "z": 6, "block": "GLASS" },
       { "x": 6, "y": 2, "z": 6, "block": "GLASS" },
