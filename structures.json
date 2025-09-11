@@ -1,9 +1,8 @@
 {
-  "structures": {
+  "structure": {
     "house": [
       {"x": 0, "y": 0, "z": 0, "block": "STONE_BRICKS"},
       {"x": 1, "y": 0, "z": 0, "block": "STONE_BRICKS"},
-      {"x": 2, "y": 0, "z": 0, "block": "STONE_BRICKS"},
       {"x": 3, "y": 0, "z": 0, "block": "STONE_BRICKS"},
       {"x": 4, "y": 0, "z": 0, "block": "STONE_BRICKS"},
       {"x": 0, "y": 0, "z": 1, "block": "STONE_BRICKS"},
@@ -35,13 +34,10 @@
 
       {"x": 0, "y": 1, "z": 1, "block": "STONE_BRICKS"},
       {"x": 4, "y": 1, "z": 1, "block": "STONE_BRICKS"},
-
       {"x": 0, "y": 1, "z": 2, "block": "STONE_BRICKS"},
       {"x": 4, "y": 1, "z": 2, "block": "STONE_BRICKS"},
-
       {"x": 0, "y": 1, "z": 3, "block": "STONE_BRICKS"},
       {"x": 4, "y": 1, "z": 3, "block": "STONE_BRICKS"},
-
       {"x": 0, "y": 1, "z": 4, "block": "STONE_BRICKS"},
       {"x": 1, "y": 1, "z": 4, "block": "GLASS"},
       {"x": 2, "y": 1, "z": 4, "block": "STONE_BRICKS"},
@@ -56,13 +52,10 @@
 
       {"x": 0, "y": 2, "z": 1, "block": "STONE_BRICKS"},
       {"x": 4, "y": 2, "z": 1, "block": "STONE_BRICKS"},
-
       {"x": 0, "y": 2, "z": 2, "block": "STONE_BRICKS"},
       {"x": 4, "y": 2, "z": 2, "block": "STONE_BRICKS"},
-
       {"x": 0, "y": 2, "z": 3, "block": "STONE_BRICKS"},
       {"x": 4, "y": 2, "z": 3, "block": "STONE_BRICKS"},
-
       {"x": 0, "y": 2, "z": 4, "block": "STONE_BRICKS"},
       {"x": 1, "y": 2, "z": 4, "block": "GLASS"},
       {"x": 2, "y": 2, "z": 4, "block": "STONE_BRICKS"},
